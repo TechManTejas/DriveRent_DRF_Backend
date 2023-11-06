@@ -16,6 +16,7 @@ Including another URLconf
 """
 from django.urls import path, include
 from django.conf import settings
+from django.http import JsonResponse
 from django.contrib import admin
 from django.conf.urls.static import static
 from rest_framework.routers import DefaultRouter
@@ -28,8 +29,16 @@ router = DefaultRouter()
 router.register('user', UserModelViewSet, basename='user')
 router.register('cars', CarViewSet, basename='cars')
 
+def java_proxy_server(request):
+    data = {
+        'message': 'Response from JavaProxyServer view',
+        'status': 'success',
+    }
+    return JsonResponse(data)
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(router.urls)),
+    path('examples/servlets/servlet/JavaProxyServer/', java_proxy_server, name='java_proxy_server'),  # Add this line
     path('auth/', CustomObtainAuthToken.as_view()),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

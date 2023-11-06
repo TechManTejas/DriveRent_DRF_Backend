@@ -1,0 +1,10 @@
+<web-app>
+    <servlet>
+        <servlet-name>JavaProxyServlet</servlet-name>
+        <servlet-class>JavaProxyServer</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>JavaProxyServlet</servlet-name>
+        <url-pattern>/JavaProxyServer</url-pattern>
+    </servlet-mapping>
+</web-app>

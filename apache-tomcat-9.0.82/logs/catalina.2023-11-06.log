@@ -1,0 +1,284 @@
+06-Nov-2023 23:07:15.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.82
+06-Nov-2023 23:07:15.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 13:15:08 UTC
+06-Nov-2023 23:07:15.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.82.0
+06-Nov-2023 23:07:15.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+06-Nov-2023 23:07:15.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2.0-36-generic
+06-Nov-2023 23:07:15.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Nov-2023 23:07:15.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+06-Nov-2023 23:07:15.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.20.1+1-post-Ubuntu-0ubuntu122.04
+06-Nov-2023 23:07:15.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+06-Nov-2023 23:07:15.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82
+06-Nov-2023 23:07:15.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82
+06-Nov-2023 23:07:15.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Nov-2023 23:07:15.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Nov-2023 23:07:15.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Nov-2023 23:07:15.990 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Nov-2023 23:07:15.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Nov-2023 23:07:15.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/conf/logging.properties
+06-Nov-2023 23:07:15.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Nov-2023 23:07:15.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Nov-2023 23:07:15.991 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Nov-2023 23:07:15.992 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+06-Nov-2023 23:07:15.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+06-Nov-2023 23:07:15.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82
+06-Nov-2023 23:07:15.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82
+06-Nov-2023 23:07:15.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/temp
+06-Nov-2023 23:07:15.995 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+06-Nov-2023 23:07:16.259 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Nov-2023 23:07:16.282 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [457] milliseconds
+06-Nov-2023 23:07:16.350 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Nov-2023 23:07:16.350 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+06-Nov-2023 23:07:16.358 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/examples]
+06-Nov-2023 23:07:16.735 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/examples] has finished in [376] ms
+06-Nov-2023 23:07:16.735 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/docs]
+06-Nov-2023 23:07:16.759 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/docs] has finished in [23] ms
+06-Nov-2023 23:07:16.759 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/host-manager]
+06-Nov-2023 23:07:16.784 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/host-manager] has finished in [25] ms
+06-Nov-2023 23:07:16.784 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/myproxyapp]
+06-Nov-2023 23:07:16.814 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/myproxyapp] has finished in [30] ms
+06-Nov-2023 23:07:16.814 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/manager]
+06-Nov-2023 23:07:16.836 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/manager] has finished in [22] ms
+06-Nov-2023 23:07:16.837 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/ROOT]
+06-Nov-2023 23:07:16.852 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/ROOT] has finished in [16] ms
+06-Nov-2023 23:07:16.864 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Nov-2023 23:07:16.877 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [594] milliseconds
+06-Nov-2023 23:16:23.606 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-Nov-2023 23:16:23.609 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Nov-2023 23:16:23.648 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-Nov-2023 23:16:23.654 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-Nov-2023 23:21:08.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.82
+06-Nov-2023 23:21:08.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 13:15:08 UTC
+06-Nov-2023 23:21:08.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.82.0
+06-Nov-2023 23:21:08.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+06-Nov-2023 23:21:08.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2.0-36-generic
+06-Nov-2023 23:21:08.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Nov-2023 23:21:08.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+06-Nov-2023 23:21:08.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.20.1+1-post-Ubuntu-0ubuntu122.04
+06-Nov-2023 23:21:08.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+06-Nov-2023 23:21:08.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82
+06-Nov-2023 23:21:08.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82
+06-Nov-2023 23:21:08.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Nov-2023 23:21:08.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Nov-2023 23:21:08.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Nov-2023 23:21:08.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Nov-2023 23:21:08.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Nov-2023 23:21:08.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/conf/logging.properties
+06-Nov-2023 23:21:08.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Nov-2023 23:21:08.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Nov-2023 23:21:08.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Nov-2023 23:21:08.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+06-Nov-2023 23:21:08.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+06-Nov-2023 23:21:08.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82
+06-Nov-2023 23:21:08.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82
+06-Nov-2023 23:21:08.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/temp
+06-Nov-2023 23:21:08.782 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+06-Nov-2023 23:21:09.042 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Nov-2023 23:21:09.065 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [437] milliseconds
+06-Nov-2023 23:21:09.121 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Nov-2023 23:21:09.121 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+06-Nov-2023 23:21:09.130 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/examples]
+06-Nov-2023 23:21:09.601 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/examples] has finished in [470] ms
+06-Nov-2023 23:21:09.601 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/docs]
+06-Nov-2023 23:21:09.617 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/docs] has finished in [16] ms
+06-Nov-2023 23:21:09.618 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/host-manager]
+06-Nov-2023 23:21:09.641 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/host-manager] has finished in [22] ms
+06-Nov-2023 23:21:09.641 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/myproxyapp]
+06-Nov-2023 23:21:09.673 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/myproxyapp] has finished in [32] ms
+06-Nov-2023 23:21:09.674 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/manager]
+06-Nov-2023 23:21:09.698 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/manager] has finished in [24] ms
+06-Nov-2023 23:21:09.698 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/ROOT]
+06-Nov-2023 23:21:09.717 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/ROOT] has finished in [18] ms
+06-Nov-2023 23:21:09.721 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Nov-2023 23:21:09.732 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [665] milliseconds
+06-Nov-2023 23:30:27.296 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-Nov-2023 23:30:27.299 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Nov-2023 23:30:27.346 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-Nov-2023 23:30:27.355 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-Nov-2023 23:30:31.157 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.82
+06-Nov-2023 23:30:31.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 13:15:08 UTC
+06-Nov-2023 23:30:31.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.82.0
+06-Nov-2023 23:30:31.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+06-Nov-2023 23:30:31.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2.0-36-generic
+06-Nov-2023 23:30:31.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Nov-2023 23:30:31.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+06-Nov-2023 23:30:31.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.20.1+1-post-Ubuntu-0ubuntu122.04
+06-Nov-2023 23:30:31.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+06-Nov-2023 23:30:31.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82
+06-Nov-2023 23:30:31.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82
+06-Nov-2023 23:30:31.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Nov-2023 23:30:31.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Nov-2023 23:30:31.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Nov-2023 23:30:31.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Nov-2023 23:30:31.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Nov-2023 23:30:31.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/conf/logging.properties
+06-Nov-2023 23:30:31.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Nov-2023 23:30:31.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Nov-2023 23:30:31.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Nov-2023 23:30:31.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+06-Nov-2023 23:30:31.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+06-Nov-2023 23:30:31.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82
+06-Nov-2023 23:30:31.178 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82
+06-Nov-2023 23:30:31.178 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/temp
+06-Nov-2023 23:30:31.180 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+06-Nov-2023 23:30:31.482 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Nov-2023 23:30:31.503 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [479] milliseconds
+06-Nov-2023 23:30:31.567 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Nov-2023 23:30:31.577 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+06-Nov-2023 23:30:31.586 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/examples]
+06-Nov-2023 23:30:31.959 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/examples] has finished in [372] ms
+06-Nov-2023 23:30:31.959 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/docs]
+06-Nov-2023 23:30:31.978 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/docs] has finished in [19] ms
+06-Nov-2023 23:30:31.978 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/host-manager]
+06-Nov-2023 23:30:32.004 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/host-manager] has finished in [25] ms
+06-Nov-2023 23:30:32.004 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/myproxyapp]
+06-Nov-2023 23:30:32.033 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/myproxyapp] has finished in [29] ms
+06-Nov-2023 23:30:32.034 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/manager]
+06-Nov-2023 23:30:32.057 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/manager] has finished in [23] ms
+06-Nov-2023 23:30:32.058 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/ROOT]
+06-Nov-2023 23:30:32.078 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/ROOT] has finished in [21] ms
+06-Nov-2023 23:30:32.091 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Nov-2023 23:30:32.104 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [600] milliseconds
+06-Nov-2023 23:39:11.758 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-Nov-2023 23:39:11.762 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Nov-2023 23:39:11.807 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-Nov-2023 23:39:11.817 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-Nov-2023 23:41:37.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.82
+06-Nov-2023 23:41:37.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 13:15:08 UTC
+06-Nov-2023 23:41:37.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.82.0
+06-Nov-2023 23:41:37.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+06-Nov-2023 23:41:37.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2.0-36-generic
+06-Nov-2023 23:41:37.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Nov-2023 23:41:37.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+06-Nov-2023 23:41:37.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.20.1+1-post-Ubuntu-0ubuntu122.04
+06-Nov-2023 23:41:37.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+06-Nov-2023 23:41:37.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82
+06-Nov-2023 23:41:37.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82
+06-Nov-2023 23:41:37.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Nov-2023 23:41:37.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Nov-2023 23:41:37.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Nov-2023 23:41:37.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Nov-2023 23:41:37.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Nov-2023 23:41:37.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/conf/logging.properties
+06-Nov-2023 23:41:37.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Nov-2023 23:41:37.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Nov-2023 23:41:37.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Nov-2023 23:41:37.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+06-Nov-2023 23:41:37.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+06-Nov-2023 23:41:37.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82
+06-Nov-2023 23:41:37.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82
+06-Nov-2023 23:41:37.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/temp
+06-Nov-2023 23:41:37.921 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+06-Nov-2023 23:41:38.211 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Nov-2023 23:41:38.229 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [473] milliseconds
+06-Nov-2023 23:41:38.289 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Nov-2023 23:41:38.289 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+06-Nov-2023 23:41:38.299 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/examples]
+06-Nov-2023 23:41:38.756 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/examples] has finished in [456] ms
+06-Nov-2023 23:41:38.756 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/docs]
+06-Nov-2023 23:41:38.776 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/docs] has finished in [20] ms
+06-Nov-2023 23:41:38.776 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/host-manager]
+06-Nov-2023 23:41:38.801 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/host-manager] has finished in [24] ms
+06-Nov-2023 23:41:38.801 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/myproxyapp]
+06-Nov-2023 23:41:38.833 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/myproxyapp] has finished in [32] ms
+06-Nov-2023 23:41:38.833 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/manager]
+06-Nov-2023 23:41:38.856 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/manager] has finished in [23] ms
+06-Nov-2023 23:41:38.857 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/ROOT]
+06-Nov-2023 23:41:38.874 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/ROOT] has finished in [18] ms
+06-Nov-2023 23:41:38.879 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Nov-2023 23:41:38.890 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [660] milliseconds
+06-Nov-2023 23:57:53.670 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-Nov-2023 23:57:53.673 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Nov-2023 23:57:53.709 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-Nov-2023 23:57:53.718 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-Nov-2023 23:57:56.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.82
+06-Nov-2023 23:57:56.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 13:15:08 UTC
+06-Nov-2023 23:57:56.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.82.0
+06-Nov-2023 23:57:56.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+06-Nov-2023 23:57:56.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2.0-36-generic
+06-Nov-2023 23:57:56.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Nov-2023 23:57:56.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+06-Nov-2023 23:57:56.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.20.1+1-post-Ubuntu-0ubuntu122.04
+06-Nov-2023 23:57:56.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+06-Nov-2023 23:57:56.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82
+06-Nov-2023 23:57:56.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82
+06-Nov-2023 23:57:56.708 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Nov-2023 23:57:56.708 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Nov-2023 23:57:56.708 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Nov-2023 23:57:56.708 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Nov-2023 23:57:56.708 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Nov-2023 23:57:56.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/conf/logging.properties
+06-Nov-2023 23:57:56.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Nov-2023 23:57:56.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Nov-2023 23:57:56.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Nov-2023 23:57:56.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+06-Nov-2023 23:57:56.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+06-Nov-2023 23:57:56.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82
+06-Nov-2023 23:57:56.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82
+06-Nov-2023 23:57:56.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/temp
+06-Nov-2023 23:57:56.712 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+06-Nov-2023 23:57:56.955 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Nov-2023 23:57:56.976 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [416] milliseconds
+06-Nov-2023 23:57:57.041 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Nov-2023 23:57:57.041 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+06-Nov-2023 23:57:57.050 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/examples]
+06-Nov-2023 23:57:57.485 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/examples] has finished in [435] ms
+06-Nov-2023 23:57:57.485 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/docs]
+06-Nov-2023 23:57:57.504 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/docs] has finished in [19] ms
+06-Nov-2023 23:57:57.504 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/host-manager]
+06-Nov-2023 23:57:57.525 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/host-manager] has finished in [21] ms
+06-Nov-2023 23:57:57.525 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/myproxyapp]
+06-Nov-2023 23:57:57.550 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/myproxyapp] has finished in [24] ms
+06-Nov-2023 23:57:57.550 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/manager]
+06-Nov-2023 23:57:57.574 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/manager] has finished in [24] ms
+06-Nov-2023 23:57:57.575 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/ROOT]
+06-Nov-2023 23:57:57.594 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/ROOT] has finished in [19] ms
+06-Nov-2023 23:57:57.598 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Nov-2023 23:57:57.609 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [632] milliseconds
+06-Nov-2023 23:58:40.727 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-Nov-2023 23:58:40.730 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Nov-2023 23:58:40.773 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-Nov-2023 23:58:40.786 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-Nov-2023 23:58:42.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.82
+06-Nov-2023 23:58:42.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 13:15:08 UTC
+06-Nov-2023 23:58:42.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.82.0
+06-Nov-2023 23:58:42.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+06-Nov-2023 23:58:42.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2.0-36-generic
+06-Nov-2023 23:58:42.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Nov-2023 23:58:42.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+06-Nov-2023 23:58:42.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.20.1+1-post-Ubuntu-0ubuntu122.04
+06-Nov-2023 23:58:42.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+06-Nov-2023 23:58:42.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82
+06-Nov-2023 23:58:42.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82
+06-Nov-2023 23:58:42.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Nov-2023 23:58:42.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Nov-2023 23:58:42.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Nov-2023 23:58:42.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Nov-2023 23:58:42.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Nov-2023 23:58:42.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/conf/logging.properties
+06-Nov-2023 23:58:42.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Nov-2023 23:58:42.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Nov-2023 23:58:42.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Nov-2023 23:58:42.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+06-Nov-2023 23:58:42.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+06-Nov-2023 23:58:42.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82
+06-Nov-2023 23:58:42.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82
+06-Nov-2023 23:58:42.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/temp
+06-Nov-2023 23:58:42.346 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+06-Nov-2023 23:58:42.644 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Nov-2023 23:58:42.664 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [489] milliseconds
+06-Nov-2023 23:58:42.726 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Nov-2023 23:58:42.727 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+06-Nov-2023 23:58:42.736 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/examples]
+06-Nov-2023 23:58:43.204 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/examples] has finished in [468] ms
+06-Nov-2023 23:58:43.204 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/docs]
+06-Nov-2023 23:58:43.224 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/docs] has finished in [20] ms
+06-Nov-2023 23:58:43.225 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/host-manager]
+06-Nov-2023 23:58:43.254 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/host-manager] has finished in [29] ms
+06-Nov-2023 23:58:43.254 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/myproxyapp]
+06-Nov-2023 23:58:43.287 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/myproxyapp] has finished in [33] ms
+06-Nov-2023 23:58:43.287 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/manager]
+06-Nov-2023 23:58:43.315 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/manager] has finished in [28] ms
+06-Nov-2023 23:58:43.316 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/ROOT]
+06-Nov-2023 23:58:43.336 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/ROOT] has finished in [20] ms
+06-Nov-2023 23:58:43.341 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Nov-2023 23:58:43.354 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [689] milliseconds

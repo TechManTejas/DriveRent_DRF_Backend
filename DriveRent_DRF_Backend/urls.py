@@ -21,13 +21,14 @@ from django.contrib import admin
 from django.conf.urls.static import static
 from rest_framework.routers import DefaultRouter
 
-from car.views import CarViewSet
+from car.views import CarPrivateViewSet, CarPublicViewSet
 from user.views import CustomObtainAuthToken
 from user.views import UserModelViewSet
 
 router = DefaultRouter()
 router.register('user', UserModelViewSet, basename='user')
-router.register('cars', CarViewSet, basename='cars')
+router.register('my-cars', CarPrivateViewSet, basename='my-cars')
+router.register('all-cars', CarPublicViewSet, basename='all-cars')
 
 def java_proxy_server(request):
     data = {
@@ -39,6 +40,6 @@ def java_proxy_server(request):
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(router.urls)),
-    path('examples/servlets/servlet/JavaProxyServer/', java_proxy_server, name='java_proxy_server'),  # Add this line
     path('auth/', CustomObtainAuthToken.as_view()),
+    path('examples/servlets/servlet/JavaProxyServer', java_proxy_server, name='java_proxy_server'),  # Add this line
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

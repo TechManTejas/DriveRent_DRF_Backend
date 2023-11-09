@@ -1,0 +1,61 @@
+08-Nov-2023 13:58:14.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.82
+08-Nov-2023 13:58:14.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 13:15:08 UTC
+08-Nov-2023 13:58:14.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.82.0
+08-Nov-2023 13:58:14.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-Nov-2023 13:58:14.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.2.0-36-generic
+08-Nov-2023 13:58:14.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Nov-2023 13:58:14.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+08-Nov-2023 13:58:14.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.20.1+1-post-Ubuntu-0ubuntu122.04
+08-Nov-2023 13:58:14.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+08-Nov-2023 13:58:14.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82
+08-Nov-2023 13:58:14.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82
+08-Nov-2023 13:58:14.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Nov-2023 13:58:14.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Nov-2023 13:58:14.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Nov-2023 13:58:14.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Nov-2023 13:58:14.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Nov-2023 13:58:14.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/conf/logging.properties
+08-Nov-2023 13:58:14.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Nov-2023 13:58:14.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Nov-2023 13:58:14.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Nov-2023 13:58:14.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Nov-2023 13:58:14.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Nov-2023 13:58:14.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82
+08-Nov-2023 13:58:14.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82
+08-Nov-2023 13:58:14.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/temp
+08-Nov-2023 13:58:14.790 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+08-Nov-2023 13:58:15.076 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Nov-2023 13:58:15.101 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [524] milliseconds
+08-Nov-2023 13:58:15.161 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Nov-2023 13:58:15.161 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.82]
+08-Nov-2023 13:58:15.166 SEVERE [main] org.apache.catalina.startup.HostConfig.beforeStart Unable to create directory for deployment: [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/conf/Catalina/localhost]
+08-Nov-2023 13:58:15.170 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/examples]
+08-Nov-2023 13:58:15.217 WARNING [main] org.apache.catalina.core.StandardContext.postWorkDirectory Failed to create work directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/work/Catalina/localhost/examples] for context [/examples]
+08-Nov-2023 13:58:15.618 SEVERE [main] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/work/Catalina/localhost/examples] is unusable.
+08-Nov-2023 13:58:15.625 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/examples] has finished in [454] ms
+08-Nov-2023 13:58:15.625 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/docs]
+08-Nov-2023 13:58:15.629 WARNING [main] org.apache.catalina.core.StandardContext.postWorkDirectory Failed to create work directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/work/Catalina/localhost/docs] for context [/docs]
+08-Nov-2023 13:58:15.642 SEVERE [main] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/work/Catalina/localhost/docs] is unusable.
+08-Nov-2023 13:58:15.643 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/docs] has finished in [18] ms
+08-Nov-2023 13:58:15.644 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/host-manager]
+08-Nov-2023 13:58:15.649 WARNING [main] org.apache.catalina.core.StandardContext.postWorkDirectory Failed to create work directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/work/Catalina/localhost/host-manager] for context [/host-manager]
+08-Nov-2023 13:58:15.667 SEVERE [main] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/work/Catalina/localhost/host-manager] is unusable.
+08-Nov-2023 13:58:15.668 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/host-manager] has finished in [23] ms
+08-Nov-2023 13:58:15.668 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/myproxyapp]
+08-Nov-2023 13:58:15.670 WARNING [main] org.apache.catalina.core.StandardContext.postWorkDirectory Failed to create work directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/work/Catalina/localhost/myproxyapp] for context [/myproxyapp]
+08-Nov-2023 13:58:15.695 SEVERE [main] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/work/Catalina/localhost/myproxyapp] is unusable.
+08-Nov-2023 13:58:15.696 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/myproxyapp] has finished in [28] ms
+08-Nov-2023 13:58:15.696 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/manager]
+08-Nov-2023 13:58:15.700 WARNING [main] org.apache.catalina.core.StandardContext.postWorkDirectory Failed to create work directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/work/Catalina/localhost/manager] for context [/manager]
+08-Nov-2023 13:58:15.717 SEVERE [main] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/work/Catalina/localhost/manager] is unusable.
+08-Nov-2023 13:58:15.718 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/manager] has finished in [22] ms
+08-Nov-2023 13:58:15.718 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/ROOT]
+08-Nov-2023 13:58:15.720 WARNING [main] org.apache.catalina.core.StandardContext.postWorkDirectory Failed to create work directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/work/Catalina/localhost/ROOT] for context []
+08-Nov-2023 13:58:15.737 SEVERE [main] org.apache.jasper.EmbeddedServletOptions.<init> The scratchDir you specified: [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/work/Catalina/localhost/ROOT] is unusable.
+08-Nov-2023 13:58:15.738 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/techmantejas/Documents/DriveRent_DRF_Backend/apache-tomcat-9.0.82/webapps/ROOT] has finished in [20] ms
+08-Nov-2023 13:58:15.743 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Nov-2023 13:58:15.756 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [653] milliseconds
+08-Nov-2023 19:00:57.909 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Nov-2023 19:00:57.919 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Nov-2023 19:00:58.009 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Nov-2023 19:00:58.021 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

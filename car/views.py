@@ -3,9 +3,18 @@ from rest_framework.response import Response
 from .models import Car
 from .serializers import CarSerializer
 
-class CarViewSet(viewsets.ModelViewSet):
+
+class CarPublicViewSet(viewsets.ModelViewSet):
     queryset = Car.objects.all()
     serializer_class = CarSerializer
+
+
+class CarPrivateViewSet(viewsets.ModelViewSet):
+    queryset = Car.objects.all()
+    serializer_class = CarSerializer
+
+    def get_queryset(self):
+        return Car.objects.filter(user=self.request.user)
 
     def create(self, serializer):
         # Get the user associated with the provided access token
@@ -15,6 +24,7 @@ class CarViewSet(viewsets.ModelViewSet):
         model = self.request.data.get('model')
         number = self.request.data.get('number')
         image = self.request.data.get('image')
+        details = self.request.data.get('details')
 
         # Create the Coupon object with the provided data
         coupon = Car(
@@ -22,7 +32,8 @@ class CarViewSet(viewsets.ModelViewSet):
             company=company,
             model=model,
             number=number,
-            image=image
+            image=image,
+            details=details
         )
 
         coupon.save()
